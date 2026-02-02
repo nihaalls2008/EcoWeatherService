@@ -16,8 +16,6 @@ class WeatherService {
         return "Scorching";
       } else if (temp > 30) {
         return "Hot";
-      } else if (temp > 20) {
-        return "Warm";
       } else if (temp > 10) {
         return "Mild";
       } else if (temp > 0) {
